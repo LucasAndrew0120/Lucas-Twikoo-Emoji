@@ -25,13 +25,3 @@
   }
 }
 ```
-
-## 爬取工具
-
-`scrape_tieba_emoji.py` 用于从百度贴吧 CDN 批量下载表情：
-
-```bash
-python scrape_tieba_emoji.py
-```
-
-会自动下载图片并按照 Twikoo JSON 格式生成配置文件。
